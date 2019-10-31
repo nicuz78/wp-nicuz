@@ -1,5 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=test/
+    - /bin/mkdir -p /test/algo/masalgo
+    - export DEPLOYPATH=test/test/algo/masalgo
     - /bin/cp index.html $DEPLOYPATH
