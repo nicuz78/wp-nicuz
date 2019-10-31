@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/user/testeo/
-    - /bin/cp -R nicuz $DEPLOYPATH
+    - /bin/cp -R test $DEPLOYPATH
