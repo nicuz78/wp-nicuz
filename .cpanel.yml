@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=prueba/
+    - export DEPLOYPATH=/home/c15841/public_html/ejemplos/abogado-prv
     - /bin/cp -R abogado-prv $DEPLOYPATH
