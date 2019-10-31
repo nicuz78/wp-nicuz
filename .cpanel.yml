@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/test/
-    -  index.html $DEPLOYPATH
+    - export DEPLOYPATH=/home/c15841/wp-nicuz/test/
+    - /bin/cp index.html $DEPLOYPATH
