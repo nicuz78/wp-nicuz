@@ -1,6 +1,5 @@
 ---
 deployment:
   tasks:
-    - /bin/mkdir -p /test/algo/masalgo
-    - export DEPLOYPATH=test/test/algo/masalgo
-    - /bin/cp index.html $DEPLOYPATH
+    - export DEPLOYPATH=/home/user/testeo/
+    - /bin/cp -R nicuz $DEPLOYPATH
