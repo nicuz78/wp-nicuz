@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/testeo/
+    - export DEPLOYPATH=testeo/
     - /bin/cp -R test $DEPLOYPATH
