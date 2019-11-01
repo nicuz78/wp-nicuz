@@ -6,7 +6,6 @@ Description: Template generado con Bootstrap
 Version: 1.0
 Tags: black, simple.
 */
-
 body {
 	color: #7d32ff;
 }
@@ -27,7 +26,6 @@ body {
 	color: white;
 	border-right: 1px solid white;
 }
-
 .bg-base {
 	background: #7d32ff;
 	color: white;
