@@ -81,11 +81,11 @@ echo ('<script type="text/javascript">
 
 }
 
-//esto va a devolver todos los post de entrada que estan cargados en una lista.
+//esto va a devolver todos los post de productos que estan cargados en una lista.
 function zucin_loop_wp()
 {
 	$args = array(
-		'post_type' => 'post'
+		'post_type' => 'product'
 	);
 
 	$the_query = new WP_Query( $args );
