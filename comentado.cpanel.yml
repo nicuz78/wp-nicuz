@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/c15841/public_html/la-joda
-    - /bin/cp -R wp-content $DEPLOYPATH
