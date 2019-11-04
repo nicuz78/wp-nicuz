@@ -9,7 +9,14 @@
 		<div class="container my-5">
 			<div class="row">
 				<!-- Articulo -->
-				<?php if (have_posts() ) : while (have_posts()) : the_post(); ?>
+				<?php 
+					$args = array(
+			    			'post_type' => 'product',
+			    			'posts_per_page' => 12
+			    	);
+			  		$loop = new WP_Query( $args );
+         		?>
+				<?php if ($loop->have_posts()) : while ($loop->have_posts()) : $loop->the_post(); ?>
 				<div class="col-12 col-sm-6 col-md-4 mb-3">
 					<div class="card"> 
 						<a href="<?php the_permalink(); ?>"><?php if ( has_post_thumbnail() ) {
